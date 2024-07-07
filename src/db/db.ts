@@ -6,7 +6,7 @@ configDotenv();
 const url = appConfig.MONGO_URI;
 
 if (!url) {
-  throw new Error(`! Url doesn't found`);
+  throw new Error(`! Url doesn't found!`);
 }
 
 export const runDb = async () => {
